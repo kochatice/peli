@@ -39,9 +39,16 @@ LOAD_CONTENT_CACHE = False
 RELATIVE_URLS = True
 MARKUP = ('md', 'ipynb3')
 
-PLUGIN_PATH = './plugins'
+PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb3.markup']
+
+# if you create jupyter files in the content dir, snapshots are saved with the same
+# metadata. These need to be ignored. 
 IGNORE_FILES = [".ipynb_checkpoints"]  
+
+# PLUGINS = ['ipynb3.liquid']
+
+ 
 
 THEME = 'themes/pelican-clean-blog'
 
