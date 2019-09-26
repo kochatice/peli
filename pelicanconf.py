@@ -36,6 +36,6 @@ SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
 
 DEFAULT_PAGINATION = 10
 LOAD_CONTENT_CACHE = False
-
+RELATIVE_URLS = True
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
