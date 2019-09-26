@@ -40,7 +40,7 @@ RELATIVE_URLS = True
 MARKUP = ('md', 'ipynb2')
 
 PLUGIN_PATH = './plugins'
-PLUGINS = ['ipynb2.markup']
+PLUGINS = ['ipynb2.markup', 'ipynb2.liquid']
 
 THEME = 'themes/pelican-clean-blog'
 
