@@ -40,9 +40,8 @@ RELATIVE_URLS = True
 MARKUP = ('md', 'ipynb3')
 
 PLUGIN_PATH = './plugins'
-PLUGINS = ['ipynb3.markup', 'ipynb3.liquid']
+PLUGINS = ['ipynb3.markup']
 IGNORE_FILES = [".ipynb_checkpoints"]  
-IPYNB_IGNORE_CSS=True
 
 THEME = 'themes/pelican-clean-blog'
 
