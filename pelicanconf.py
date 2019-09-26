@@ -37,10 +37,10 @@ SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
 DEFAULT_PAGINATION = 10
 LOAD_CONTENT_CACHE = False
 RELATIVE_URLS = True
-MARKUP = ('md', 'ipynb')
+MARKUP = ('md', 'ipynb2')
 
 PLUGIN_PATH = './plugins'
-PLUGINS = ['ipynb.markup']
+PLUGINS = ['ipynb2.markup']
 
 THEME = 'themes/pelican-clean-blog'
 
