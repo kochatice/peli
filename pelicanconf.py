@@ -36,7 +36,7 @@ SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
 
 DEFAULT_PAGINATION = 10
 LOAD_CONTENT_CACHE = False
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 MARKUP = ('md', 'ipynb3')
 
 PLUGIN_PATHS = ['./plugins']
@@ -44,8 +44,10 @@ PLUGINS = ['ipynb3.markup']
 
 # if you create jupyter files in the content dir, snapshots are saved with the same
 # metadata. These need to be ignored. 
-# IGNORE_FILES = [".ipynb_checkpoints"]  
+IGNORE_FILES = [".ipynb_checkpoints"]  
 THEME = 'themes/pelican-clean-blog'
+DELETE_OUTPUT_DIRECTORY = False
+
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
