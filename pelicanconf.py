@@ -37,5 +37,12 @@ SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
 DEFAULT_PAGINATION = 10
 LOAD_CONTENT_CACHE = False
 RELATIVE_URLS = True
+MARKUP = ('md', 'ipynb2')
+
+PLUGIN_PATH = './plugins'
+PLUGINS = ['ipynb2.markup']
+
+THEME = 'themes/pelican-clean-blog'
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
