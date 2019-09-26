@@ -48,7 +48,7 @@ IGNORE_FILES = [".ipynb_checkpoints"]
 THEME = 'themes/pelican-clean-blog'
 DELETE_OUTPUT_DIRECTORY = False
 IPYNB_USE_METACELL = True
-
+ 
 
 
 # Uncomment following line if you want document-relative URLs when developing
