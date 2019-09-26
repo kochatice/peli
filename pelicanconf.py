@@ -44,12 +44,7 @@ PLUGINS = ['ipynb3.markup']
 
 # if you create jupyter files in the content dir, snapshots are saved with the same
 # metadata. These need to be ignored. 
-IGNORE_FILES = [".ipynb_checkpoints"]  
-
-# PLUGINS = ['ipynb3.liquid']
-
- 
-
+# IGNORE_FILES = [".ipynb_checkpoints"]  
 THEME = 'themes/pelican-clean-blog'
 
 # Uncomment following line if you want document-relative URLs when developing
