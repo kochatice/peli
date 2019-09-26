@@ -41,6 +41,7 @@ MARKUP = ('md', 'ipynb3')
 
 PLUGIN_PATH = './plugins'
 PLUGINS = ['ipynb3.markup']
+IGNORE_FILES = [".ipynb_checkpoints"]  
 
 THEME = 'themes/pelican-clean-blog'
 
